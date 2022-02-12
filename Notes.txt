@@ -1,0 +1,42 @@
+Portfolio_Container-> About Me -> Contact Me -> Home -> Footer -> Testimonial
+Home -> Profile.jsx -> Profile.css
+
+
+Typescript
+-----------
+import typical from 'react-typical'
+npm i react-typical
+div->span->h1
+
+<Typical
+
+  loop={Infigity}
+  steps = {
+      [
+          "Ethusiantic Dev",
+          1000,
+          "Full stack developer"
+          1000,
+          "Mern stack dev"
+          1000,
+      ]
+  }
+/>
+
+const textRef = useRef();
+   
+    useEffect(() => {
+        init(textRef.current, {
+             disableBackTyping: true,
+             typeSpeed:  160, 
+             loop :true,
+             backDelay:  1500,
+             strings: ['Shyamal Sardar', 'Web Developer','Frontend Developer'] 
+            });
+    },[])
+
+    <span ref={textRef}></span>
+
+
+a -> download -> public
+<a href= "name.pdf" download = "name name.pdf">

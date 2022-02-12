@@ -1,0 +1,93 @@
+.about-section{
+    margin: 100px 0px;
+}
+
+
+.about-container{ 
+    border: 1px solid rgb(214, 213, 213);
+    margin: 40px 0px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    padding: 20px 15px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: red; */
+}
+
+.col h3{
+    font-size: 18px;
+}
+
+.heading{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+.about-contact{
+
+}
+
+.about-contact_item{
+    list-style: none;
+    text-decoration: none;
+}
+
+.about-contact_heading{
+    color:#FFC107
+}
+
+.about_myskills{
+    margin:15px 0px;
+}
+
+
+.about_myskills h3{
+    text-align: center;
+    color:#FFC107
+}
+
+strong{
+    color:#d19f08
+}
+
+.skill_img{
+    width: 50%;
+}
+
+.about_myskill__logoes{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.about_myskill__logoes li{
+    list-style: none;
+}
+
+
+@media (max-width: 868px)
+{
+    .about-container{
+        /* display: flex;
+        flex-direction: column;
+       justify-content: center; */
+
+       text-align: center;
+       border: 1px solid rgba(245, 138, 138, 0.575);
+    }
+    
+
+    .about_me{
+        margin-top: 15px;
+    }
+}
+
+/* @media only screen and (max-width: 800px){
+    .leftbody{
+        width: 100%;
+        border-bottom: none;
+    }
+    .wrapper{
+    margin-left: 7%;
+   
+   }
+   } */
+   

@@ -1,0 +1,53 @@
+.heading h3{
+    /* text-decoration: underline; */
+}
+
+.heading .underline{
+    color:#f5bd07;
+    height: 4px;
+    width: 90px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.margin-btw{
+    margin-left: 10px;
+}
+
+.contact_details--container{
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    padding-left:40px;
+}
+
+.contact_details--container .heading{
+    margin-bottom: 32px;
+}
+
+.card-body{
+    height: 300px;
+    /* width: 600px */
+}
+
+input,textarea{
+    border: 1px solid #f5bd07;
+    outline: #f5bd07;
+}
+
+input:active{
+    border: 1px solid #f5bd07;
+}
+
+.contact_Inform{
+    color:rgb(182, 180, 180);
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.submitBtn:active{
+    color:white;
+}

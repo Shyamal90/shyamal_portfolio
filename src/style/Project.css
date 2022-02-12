@@ -1,0 +1,15 @@
+.project_main-container{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.project_main-container h1{
+    /* color:rgb(99, 98, 98); */
+}
+
+.project_container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
